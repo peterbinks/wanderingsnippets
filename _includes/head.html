@@ -9,4 +9,17 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <script type="text/javascript" src="js/instafeed.min.js"></script>
+  <script type="text/javascript">
+      var userFeed = new Instafeed({
+          get: 'user',
+          userId: '351090214',
+          limit: '10',
+          sortBy: 'most-recent',
+          resolution: 'standard_resolution',
+          accessToken: '351090214.b2fb2fc.9c8428bc3dfd4acfbf9a725dfb416173'
+      });
+      userFeed.run();
+  </script>
+
 </head>
