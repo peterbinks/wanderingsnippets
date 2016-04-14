@@ -195,6 +195,54 @@
 }
 
 
+/**
+* InstaFeed
+*/
+
+ul#instafeed {
+    margin-left: 0;
+
+    li {
+        width: 15rem;
+        height: 15rem;
+        overflow: hidden;
+        display: inline-block;
+        margin: .75rem;
+
+        transform: translateZ(0);
+        transition: all .2s ease;
+          -moz-transition: all .2s ease;
+          -ms-transition: all .2s ease;
+          -webkit-transition: all .2s ease;
+          -o-transition: all .2s ease;
+        &:hover{
+             box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .45);
+        }
+    }
+
+    a {
+        display: inline-block;
+        width: 15rem;
+        height: 15rem;
+        transform: translateZ(0);
+        transition: all .5s ease;
+          -moz-transition: all .5s ease;
+          -ms-transition: all .5s ease;
+          -webkit-transition: all .5s ease;
+          -o-transition: all .5s ease;
+
+          &:hover {
+
+              transform: translateZ(0);
+              transform: scale(1.1);
+              -moz-transform: scale(1.1);
+              -webkit-transform: scale(1.1);
+              -o-transform: scale(1.1);
+              -ms-transform: scale(1.1); /* IE 9 */
+          }
+    }
+}
+
 
 /**
  * Posts
