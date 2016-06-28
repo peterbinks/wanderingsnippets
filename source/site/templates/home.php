@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
+<?php snippet('home_menu') ?>
 
 <section id="main">
 	<div class="container">
