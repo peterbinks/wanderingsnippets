@@ -6,10 +6,13 @@ title: Page
 pages: true
 files: true
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  text: 
+  coverImage:
+    label: Cover Image
+    type: image
+  text:
     label: Text
     type:  textarea
     size:  large
