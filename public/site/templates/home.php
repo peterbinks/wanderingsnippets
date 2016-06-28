@@ -3,13 +3,13 @@
 
 <section id="main">
 	<div class="container">
-		<div class="seven columns intro">
+		<div class="">
 			<?php echo kirbytext($page->intro()) ?>
 		</div>
-		<div class="five columns currently">
-			<?php echo kirbytext($page->currently()) ?>
+		<div class="">
+			<h3 style="text-align: center;">Check Out My Instagram</h3>
+			<ul id="instafeed"></ul>
 		</div>
-		<ul id="instafeed"></ul>
 	</div>
 </section>
 
