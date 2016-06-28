@@ -1,7 +1,7 @@
 .intro {
     max-width: 80%;
     h1, h2, {
-        font-family: $athelas;
+        font-family: $essonnes;
         line-height: 1.2;
     }
 
@@ -15,27 +15,21 @@
 
 }
 
-.currently {
-
-    ul li {
-        list-style: none;
-        margin: 0 0 .5rem .5rem;
-
-        &:before {
-            content: "";
-            background-image: url(../images/harry.png);
-            background-size: 24px 24px;
-            height: 24px;
-            width: 24px;
-            display: block;
-            margin: 5px 5px 0 0;
-            float: left;
-            position: relative;
-        }
-
-        h2 {
-            margin-bottom: 1rem;
-        }
-
+ul#instafeed {
+  margin: 0;
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    a{
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      border-bottom: none;
+      &:hover {
+        box-shadow: none;
+      }
     }
+  }
 }

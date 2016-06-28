@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 400;
-  font-family: "effra-1", "effra-2", "Avenir", "Helvetica Neue", sans-serif; }
+  font-family: "essonnes-display", sans-serif; }
 
 h1 {
   font-size: 2rem; }
@@ -385,28 +385,27 @@ footer h3 {
 .intro {
   max-width: 80%; }
   .intro h1, .intro h2 {
-    font-family: "athelas-1", "athelas-2", serif;
+    font-family: "essonnes-display", sans-serif;
     line-height: 1.2; }
   .intro h1 {
     font-size: 3.25rem; }
   .intro h2 {
     font-size: 2.5rem; }
 
-.currently ul li {
-  list-style: none;
-  margin: 0 0 .5rem .5rem; }
-  .currently ul li:before {
-    content: "";
-    background-image: url(../images/harry.png);
-    background-size: 24px 24px;
-    height: 24px;
-    width: 24px;
-    display: block;
-    margin: 5px 5px 0 0;
-    float: left;
-    position: relative; }
-  .currently ul li h2 {
-    margin-bottom: 1rem; }
+ul#instafeed {
+  margin: 0; }
+  ul#instafeed li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0; }
+    ul#instafeed li a {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      border-bottom: none; }
+      ul#instafeed li a:hover {
+        box-shadow: none; }
 
 ul.readinglist li {
   display: inline-block;
@@ -433,7 +432,7 @@ html {
 body {
   line-height: 1.6;
   font-weight: 400;
-  font-family: "fira-sans-1", "fira-sans-2", sans-serif;
+  font-family: "essonnes-display", sans-serif;
   color: #222;
   display: -webkit-box;
   display: -ms-flexbox;

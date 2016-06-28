@@ -9,6 +9,7 @@
 		<div class="five columns currently">
 			<?php echo kirbytext($page->currently()) ?>
 		</div>
+		<ul id="instafeed"></ul>
 	</div>
 </section>
 
