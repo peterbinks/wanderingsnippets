@@ -1,4 +1,5 @@
-<header style="background-image: url('content/2-<?php echo $page->uri() ?>/<?php echo $page->coverimage() ?>'); background-size: cover; background-repeat: no-repeat;">
+<?php $img = $page->coverImage()->toFile(); ?>
+<header style="background-image: url('<?php echo $img->url() ?>'); background-size: cover; background-repeat: no-repeat;">
     <div class="container">
       <div class="header-inner">
         <div class="title">
