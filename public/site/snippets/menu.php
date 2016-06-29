@@ -1,5 +1,4 @@
-<?php $img = $page->coverImage()->toFile(); ?>
-<header style="background-image: url('<?php echo $img->url() ?>'); background-size: cover; background-repeat: no-repeat;">
+<header style="background-image: url('<?php echo $page->image($page->coverImage()->value())->url() ?>'); background-size: cover; background-repeat: no-repeat;">
     <div class="container">
       <div class="header-inner">
         <div class="title">
@@ -8,6 +7,8 @@
         <nav id="menu">
             <ul>
                 <li><a href="/about"><h3>About</h3></a></li>
+                <li><a href="/contact"><h3>Contact</h3></a></li>
+                <li><a href="/shop"><h3>Shop</h3></a></li>
             </ul>
         </nav>
       </div>

@@ -7,5 +7,6 @@ email: melodyssoaring@gmail.com
 language: en
 role: admin
 history:
+  - contact
   - about
   - home
