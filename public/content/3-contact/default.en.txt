@@ -2,4 +2,8 @@ Title: Contact
 
 ----
 
-Text:
+Text: 
+
+----
+
+Coverimage: dsc_0035.jpg
