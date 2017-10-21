@@ -1,13 +1,12 @@
 header {
   height: 50vh;
-  min-height: 30rem;
+  padding: 5rem 0;
   flex: none;
   margin: 10px;
 }
 
 header#home {
   width: 100%;
-  padding: 5rem 0;
   height: auto;
   flex: none;
   min-height: 0;
@@ -48,7 +47,6 @@ header nav ul li a {
 }
 
 .header-inner {
-  padding: 5rem 0;
 }
 
 h3.name a {

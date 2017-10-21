@@ -16,20 +16,12 @@
 }
 
 ul#instafeed {
-  margin: 0;
-  li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    margin: 0;
-    a{
-      display: inline-block;
-      width: 250px;
-      height: 250px;
-      border-bottom: none;
-      &:hover {
-        box-shadow: none;
-      }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+    img {
+        width: 33.3%;
+        padding: 10px;
     }
-  }
 }

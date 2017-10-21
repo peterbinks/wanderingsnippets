@@ -3,7 +3,3 @@ Title: About
 ----
 
 Text: 
-
-----
-
-Coverimage: _1270760.jpg
