@@ -1,12 +1,10 @@
 <footer>
-<div class="container">
-  <div class="columns six offset-by-three places">
-  </div>
-  <div class="copyright">
-     <span>&copy; 2016</span>
-     <span>Have a great <span id="day"></span></span>
-  </div>
-</div>
+    <div class="container">
+      <div class="copyright">
+         <span>&copy; 2016</span>
+         <span>Have a great <span id="day"></span></span>
+      </div>
+    </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -17,9 +15,6 @@
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-<script>
-    $("p:has(img)").contents().unwrap();
-</script>
 
 <script type="text/javascript">
     var d = new Date();
@@ -28,5 +23,4 @@
 </script>
 
 </body>
-
 </html>
