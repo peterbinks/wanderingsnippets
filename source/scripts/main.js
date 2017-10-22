@@ -1,7 +1,7 @@
 var userFeed = new Instafeed({
         get: 'user',
         userId: '351090214',
-        limit: '4',
+        limit: '9',
         sortBy: 'most-recent',
         resolution: 'standard_resolution',
         template: '<li class="insta-img"><a href="{{link}}" style="background-image: url({{image}}); background-size: cover; background-position: center center;"></a></li>',

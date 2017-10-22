@@ -7,7 +7,7 @@
 			<?php echo kirbytext($page->intro()) ?>
 		</div>
 		<div class="">
-			<h3 style="text-align: center;">Check Out My Instagram</h3>
+			<h3 style="text-align: center;"><a href="https://instagram.com/melodyelanelson"> Instagram</a></h3>
 			<ul id="instafeed"></ul>
 		</div>
 	</div>

@@ -12,7 +12,7 @@ module.exports = {
     source: 'public/',
     user: 's202202.gridserver.com',
     host: 's202202.gridserver.com',
-    dest: 'domains/peterbinks.net/html',
+    dest: 'domains/wanderingsnippets.com/html',
     exclude_list: 'rsync-exclude.txt'
   },
 

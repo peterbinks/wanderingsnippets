@@ -4,6 +4,19 @@ Title: About
 
 Text: 
 
+This is my about page. 
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.
+
 ----
 
 Coverimage: _1270760.jpg
+
+----
+
+Slideshow: 
+
+- avatar.jpg
+- _1270760.jpg
