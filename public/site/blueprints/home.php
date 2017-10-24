@@ -11,7 +11,6 @@ fields:
     label: Intro
     type:  textarea
     size:  large
- Currently:
-    label: Currently
-    type:  textarea
-    size:  large
+ slideshow:
+    label:       Gallery
+    type:        images

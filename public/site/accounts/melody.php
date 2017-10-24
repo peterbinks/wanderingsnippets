@@ -8,6 +8,6 @@ language: en
 role: admin
 history:
   - about
+  - home
   - shop
   - contact
-  - home
