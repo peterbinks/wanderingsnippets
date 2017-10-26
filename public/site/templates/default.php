@@ -6,6 +6,7 @@
         <?php echo kirbytext($page->text()) ?>
     </div>
 </section>
+<?php if($page->slideshow()->isNotEmpty()): ?>
 <section id="gallery">
     <div class="gallery">
         <?php foreach($page->slideshow()->yaml() as $image): ?>
@@ -15,4 +16,5 @@
         <?php endforeach; ?>
     </div>
 </section>
+<?php endif ?>
 <?php snippet('footer') ?>

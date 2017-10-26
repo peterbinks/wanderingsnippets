@@ -7,7 +7,8 @@ email: melodyssoaring@gmail.com
 language: en
 role: admin
 history:
+  - interiors
+  - photos
   - about
   - home
   - shop
-  - contact

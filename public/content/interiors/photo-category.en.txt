@@ -1,0 +1,97 @@
+Title: Interiors
+
+----
+
+Coverimage: thumb__1300344_1024.jpg
+
+----
+
+Text: 
+
+----
+
+Gallery-title: Gallery 1
+
+----
+
+Slideshow: 
+
+- thumb__1300344_1024.jpg
+- thumb__1300370_1024.jpg
+- thumb__1300371_1024.jpg
+- thumb__1300372_1024.jpg
+
+----
+
+Gallery-title-2: Gallery 2
+
+----
+
+Slideshow-2: 
+
+- thumb__1300372_1024.jpg
+- thumb__1300373_1024.jpg
+- thumb__1300376_1024.jpg
+- thumb__1300377_1024.jpg
+
+----
+
+Gallery-title-3: Gallery 3
+
+----
+
+Slideshow-3: 
+
+- thumb__1300391_1024.jpg
+- thumb__1300386_1024.jpg
+- thumb__1300384_1024.jpg
+- thumb__1300381_1024.jpg
+
+----
+
+Gallerytitle: Gallery 1
+
+----
+
+Gallerytitle2: Gallery 2
+
+----
+
+Slideshow2: 
+
+- thumb__1300376_1024.jpg
+- thumb__1300377_1024.jpg
+- thumb__1300378_1024.jpg
+- thumb__1300381_1024.jpg
+
+----
+
+Gallerytitle3: Gallery 3
+
+----
+
+Slideshow3: 
+
+- thumb__1300391_1024.jpg
+- thumb__1300386_1024.jpg
+- thumb__1300384_1024.jpg
+- thumb__1300381_1024.jpg
+
+----
+
+Gallery: 
+
+- 
+  gallerytitle: Gallery 1
+  slideshow: |
+    - thumb__1300344_1024.jpg
+    - thumb__1300371_1024.jpg
+    - thumb__1300377_1024.jpg
+    - thumb__1300373_1024.jpg
+- 
+  gallerytitle: Gallery 2
+  slideshow: |
+    - thumb__1300373_1024.jpg
+    - thumb__1300376_1024.jpg
+    - thumb__1300384_1024.jpg
+    - thumb__1300372_1024.jpg
