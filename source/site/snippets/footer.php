@@ -10,6 +10,7 @@
                     <h3>Connect With Me</h3>
                     <li><a href="mailto:melodybinkowski@gmail.com">Email</a></li>
                     <li><a href="http://facebook.com/wanderingsnippets">Facebook</a></li>
+                    <li><a href="https://twitter.com/melodyelanelson">Twitter</a></li>
                 </ul>
             </div>
     	</div>
