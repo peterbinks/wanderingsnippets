@@ -2,7 +2,7 @@
     <section id="insta">
     	<div class="container">
     		<div class="two-thirds column">
-    			<h3><a href="https://instagram.com/melodyelanelson">Instagram</a></h3>
+    			<h3><a href="https://instagram.com/wanderingsnippets">Instagram</a></h3>
     			<ul id="instafeed"></ul>
     		</div>
             <div class="one-third column">
