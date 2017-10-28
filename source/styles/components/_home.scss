@@ -1,9 +1,5 @@
 .intro {
     max-width: 80%;
-    h1, h2, {
-        font-family: $essonnes;
-        line-height: 1.2;
-    }
 
     h1 {
         font-size: 3.25rem;
@@ -13,29 +9,4 @@
         font-size: 2.5rem;
     }
 
-}
-
-section#insta {
-    padding: 1rem 0 4rem;
-    background-color: #eee;
-    margin: 0;
-}
-
-ul#instafeed {
-  margin: 0;
-  li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    margin: 0;
-    a{
-      display: inline-block;
-      width: 250px;
-      height: 250px;
-      border-bottom: none;
-      &:hover {
-        box-shadow: none;
-      }
-    }
-  }
 }

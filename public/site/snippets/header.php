@@ -14,8 +14,7 @@
   <?php echo css('assets/styles/main.css') ?>
   <?php echo js('assets/scripts/instafeed.js') ?>
   <?php echo js('assets/scripts/main.js') ?>
-  <script src="https://use.typekit.net/gyy1sms.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Karla" rel="stylesheet">
   <style>
   .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading p, .wf-loading li, .wf-loading blockquote {
       visibility: hidden;

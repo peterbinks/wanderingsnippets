@@ -22,16 +22,10 @@ footer h3 {
   display: block;
   clear: both;
   text-align: center;
+  margin: 2rem 0 0 0;
+  padding: .5rem 0;
 }
 
-.places {
-  text-align: center;
-  ul {
+.footer-menu {
     list-style: none;
-    text-align: center;
-    li {
-      display: inline;
-      margin: 0 .5rem;
-    }
-  }
 }

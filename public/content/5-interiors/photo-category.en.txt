@@ -59,11 +59,6 @@ Gallerytitle2: Gallery 2
 
 Slideshow2: 
 
-- thumb__1300376_1024.jpg
-- thumb__1300377_1024.jpg
-- thumb__1300378_1024.jpg
-- thumb__1300381_1024.jpg
-
 ----
 
 Gallerytitle3: Gallery 3

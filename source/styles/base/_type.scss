@@ -4,7 +4,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 400;
-  font-family: $essonnes;
+  font-family: $fira;
+  color: $black;
 }
 h1 { font-size: 2rem;}
 h2 { font-size: 1.75rem;}
@@ -13,11 +14,26 @@ h4 { font-size: 1.2rem; }
 h5 { font-size: 875rem;}
 h6 { font-size: .75rem;}
 
+h1 a { font-size: 2rem;}
+h2 a { font-size: 1.75rem;}
+h3 a { font-size: 1.5rem;}
+h4 a { font-size: 1.2rem; }
+h5 a { font-size: 875rem;}
+h6 a { font-size: .75rem;}
+
 p {
   margin-top: 0;
   font-size: 1.2rem;
+  line-height: 1.6;
   width: 750px;
   margin: 0 auto;
+  font-family: $karla;
+}
+
+a {
+    font-family: $karla;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
   /* Code
