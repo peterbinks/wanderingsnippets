@@ -1,8 +1,8 @@
-<header style="background-image: url('<?php echo $page->image($page->coverImage()->value())->url() ?>'); background-size: cover; background-repeat: no-repeat;">
+<header <?php if($page->coverImage()->isNotEmpty()): ?>style="background-image: url('<?php echo $page->image($page->coverImage()->value())->url() ?>'); background-size: cover; background-repeat: no-repeat;" <?php endif ?>>
     <div class="container">
       <div class="header-inner">
         <div class="title">
-            <h3 class="name"><a href="/"><img src="assets/images/logo.svg" width="300"/></a></h3>
+            <h3 class="name"><a href="/"><img src="assets/images/ws_logo.svg" width="300"/></a></h3>
         </div>
         <?php
 
