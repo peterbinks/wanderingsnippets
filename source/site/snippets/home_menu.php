@@ -2,7 +2,7 @@
     <div class="container">
       <div class="header-inner">
         <div class="title">
-            <h3 class="name"><a href="/"><img src="assets/images/ws_logo.svg" width="300"/></a></h3>
+            <h3 class="name"><a href="/"><img src="../assets/images/ws_logo.svg" width="300"/></a></h3>
         </div>
         <?php
 
