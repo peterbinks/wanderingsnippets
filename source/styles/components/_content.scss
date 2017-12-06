@@ -25,8 +25,8 @@
         margin: 0;
         a{
           display: inline-block;
-          width: 150px;
-          height: 150px;
+          width: 130px;
+          height: 130px;
           border-bottom: none;
           &:hover {
             box-shadow: none;
@@ -113,23 +113,4 @@
 section#insta {
     background-color: #eee;
     margin: 0;
-}
-
-ul#instafeed {
-  margin: 0;
-  li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    margin: 0;
-    a{
-      display: inline-block;
-      width: 150px;
-      height: 150px;
-      border-bottom: none;
-      &:hover {
-        box-shadow: none;
-      }
-    }
-  }
 }
