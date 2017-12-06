@@ -77,7 +77,24 @@
 }
 
 @media (min-width: 1000px) {
-
+    ul#instafeed {
+      margin: 0;
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+        a{
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          border-bottom: none;
+          &:hover {
+            box-shadow: none;
+          }
+        }
+      }
+    }
 }
 
 .gallery-title {

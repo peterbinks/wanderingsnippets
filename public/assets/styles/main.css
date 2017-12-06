@@ -507,6 +507,22 @@ footer h3 {
       .gallery img:last-child {
         padding: 1rem 0 1rem 0; } }
 
+@media (min-width: 1000px) {
+  ul#instafeed {
+    margin: 0; }
+    ul#instafeed li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px;
+      margin: 0; }
+      ul#instafeed li a {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-bottom: none; }
+        ul#instafeed li a:hover {
+          box-shadow: none; } }
+
 .gallery-title {
   text-align: center; }
 
