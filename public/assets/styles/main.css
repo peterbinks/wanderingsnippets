@@ -356,9 +356,12 @@ h3.name a {
     min-height: 10rem; }
   header#home {
     height: auto;
-    min-height: 10rem; }
+    min-height: 10vh;
+    padding: 2rem 0; }
   .header-inner {
-    padding: 3rem 0; }
+    padding: 0; }
+    .header-inner h3.name {
+      margin: 0; }
   section {
     padding: 1rem; } }
 
