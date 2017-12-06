@@ -474,7 +474,11 @@ footer h3 {
         height: 130px;
         border-bottom: none; }
         ul#instafeed li a:hover {
-          box-shadow: none; } }
+          box-shadow: none; }
+  section#insta {
+    background-color: #eee;
+    margin: 0;
+    padding: .5rem; } }
 
 @media (min-width: 551px) and (max-width: 1000px) {
   .gallery {
@@ -510,7 +514,11 @@ footer h3 {
       display: inline;
       padding: 1rem 1rem 1rem 0; }
       .gallery img:last-child {
-        padding: 1rem 0 1rem 0; } }
+        padding: 1rem 0 1rem 0; }
+  section#insta {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem; } }
 
 @media (min-width: 1000px) {
   ul#instafeed {
@@ -537,10 +545,6 @@ footer h3 {
 .gallery::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey; }
-
-section#insta {
-  background-color: #eee;
-  margin: 0; }
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
